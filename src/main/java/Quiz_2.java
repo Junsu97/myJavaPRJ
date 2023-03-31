@@ -14,6 +14,7 @@ public class Quiz_2 {
                 System.out.println("");
                 i++;
                 j=0;
+
             }
         }
     }
