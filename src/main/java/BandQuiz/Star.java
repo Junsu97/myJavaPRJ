@@ -14,6 +14,7 @@ public class Star {
                         System.out.print("*");
                     }
                     System.out.println("");
+
                 }
             }
         }
