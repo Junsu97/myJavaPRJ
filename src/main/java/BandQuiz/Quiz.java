@@ -1,3 +1,5 @@
+package BandQuiz;
+
 import java.util.Scanner;
 
 /*
