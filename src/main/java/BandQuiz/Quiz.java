@@ -7,7 +7,6 @@ public class Quiz {
                 i++;
                 j = 1;
             }
-
         }
     }
 }
