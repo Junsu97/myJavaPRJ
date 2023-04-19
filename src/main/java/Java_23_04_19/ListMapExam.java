@@ -38,6 +38,7 @@ public class ListMapExam {
 
         // 일반적인 반복문 -- 1세대
         // 단점 : 반드시 반복의 횟수를 알고 있어야 사용 가능함
+        System.out.println();
         System.out.println("1세대 반복문");
 
         for(int i = 0; i < listSize; i++){
@@ -50,6 +51,7 @@ public class ListMapExam {
 
         //개선된 for문 -- 2세대
         //장점 : 반복횟수를 몰라도 됨
+        System.out.println();
         System.out.println("2세대 반복문");
         for(Map<String, String> rMap : list){
             System.out.println("name : " + rMap.get("name"));
@@ -59,6 +61,7 @@ public class ListMapExam {
         
         //개선된 for문 -- 3세대
         //장점 : 2세대보다 코딩해야 하는 라인이 감소, 람다식 적용, 자바 1.8부터 사용가능
+        System.out.println();
         System.out.println("3세대 반복문");
 
         list.forEach(rMap -> {
@@ -70,6 +73,7 @@ public class ListMapExam {
         //개선된 for문 -- 4세대
         //장점 : 3세대에 비동기식 적용
         //단점 : 누가 먼저 처리 될지 알 수 없음, 따라서 모든 경우에 다 쓸 수 없음
+        System.out.println();
         System.out.println("4세대 반복문");
         list.parallelStream().forEach(rMap -> {
             System.out.println("name : " + rMap.get("name"));
