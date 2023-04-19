@@ -80,5 +80,23 @@ public class ListMapExam {
             System.out.println("email : " + rMap.get("email"));
             System.out.println("dept : " + rMap.get("dept"));
         });
+        
+        
+        // while 반복문 -- 1.5세대 for문보다 처리속도 빠름
+        //1.7버전까지 가장 많이 사용됨
+        //단점 : 코드가 길어짐
+        System.out.println();
+        System.out.println("1.5세대 반복문");
+        Iterator<Map<String,String>> it = list.iterator();
+
+        while(it.hasNext()){
+            Map<String, String> rMap = it.next();
+
+            System.out.println("name : " + rMap.get("name"));
+            System.out.println("email : " + rMap.get("email"));
+            System.out.println("dept : " + rMap.get("dept"));
+
+            rMap = null;
+        }
     }
 }
