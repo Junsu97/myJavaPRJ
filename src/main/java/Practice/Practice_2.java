@@ -33,5 +33,6 @@ public class Practice_2 {
             result[i] = arr[i];
             System.out.print(result[i] + " ");
         }
+
     }
 }
