@@ -9,7 +9,7 @@ public class Exam {
 
         Map<Integer, String> map = null;
 
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 5; i++){
             System.out.println("데이터를 입력하세요");
             map = new HashMap<>();
 
